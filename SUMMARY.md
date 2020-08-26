@@ -85,8 +85,3 @@
 * [Gathering user feedback](tips-and-best-practices/gathering-user-feedback.md)
 * [Using time in your chatbot](tips-and-best-practices/using-time-in-your-chatbot.md)
 
-## Support
-
-* [Get in touch](support/get-in-touch.md)
-* [Status](https://status.chatlayer.ai/)
-
