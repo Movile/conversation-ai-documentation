@@ -96,13 +96,13 @@ Now for each of these components you can come up with alternatives. Here it is i
 
 Repeat this for every word or set of words. In our Expression Generator tool this will look something like this:
 
-| I want to  | go  | to  | Paris  | by  | train  |
+| I want to | go | to | Paris | by | train |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| I would like to  | travel  | in the direction of  | London  | with the  | rail  |
-| I must  | transport  | with as destination  | Brussels  |  | railway  |
-| I should  |  |  | Berlin  |  |  |
-| I prefer to  |  |  |  |  |  |
-| Let me  |  |  |  |  |  |
+| I would like to | travel | in the direction of | London | with the | rail |
+| I must | transport | with as destination | Brussels |  | railway |
+| I should |  |  | Berlin |  |  |
+| I prefer to |  |  |  |  |  |
+| Let me |  |  |  |  |  |
 
 And now you repeat this process for all of the sentences from step 1. The nice thing is that for step 2 you can quite often reuse the synonyms and alternatives you created for the previous sentence.
 

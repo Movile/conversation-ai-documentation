@@ -29,5 +29,3 @@ Make sure you follow our [NLP training best practices](how-to-nlp.md) when creat
 
 * Create a new bot dialog, link the intent to that bot dialog, and define an answer the bot should give as a reply to your new intent.
 
-
-

@@ -6,7 +6,7 @@ Chatlayer.ai was built to support all the languages that your customers speak.
 
 When a bot is created, a user has to choose a primary language. This is the language in which the bot will be developed. In other words, this language is the language that is shown in the 'Bot dialogs' module where you configure all the messages, button labels, content, links and logic of the bot.
 
-When a bot is created, the user also has the option to choose \(multiple\) secondary languages. To configure the copy-writing for these languages, you can use the [Translations](../bot-answers/dialog-state/translations.md) tab. 
+When a bot is created, the user also has the option to choose \(multiple\) secondary languages. To configure the copy-writing for these languages, you can use the [Translations](../bot-answers/dialog-state/translations.md) tab.
 
 The structure and logic of the bot is defined once and then reused for all languages. That means that you build the bot once, and then just translate it. If you add functionality or conversational flows, they will automatically be added to the secondary languages as well. This makes sure your bot remains in sync and offers a consistent experience for all languages.
 
@@ -27,7 +27,7 @@ Things to note when managing NLP models in more than one language
 
 If you have built your bot to support multiple languages, you want it to talk to the user in the language they prefer. A bot that doesn't have any information about the user's language will use the primary language.
 
-#### Language detection flow
+### Language detection flow
 
 Use the **Language detection** option to check if the user's language is supported by the bot. You can find it under Bot Settings.
 
@@ -49,9 +49,7 @@ Our reference implementation looks like this:
 If you want to create an intent that allows a user to clear their current language and use another bot in another language, you can use a "clear session" action bot dialog to clear `preferredLanguage`, and then you can route the user to the input validation detailed above.
 {% endhint %}
 
-#### Web widget
+### Web widget
 
 In the web widget you can trigger a specific bot language based on the language of the page the user is looking at. You can find more information [here](../channels/webwidget.md#default-locale).
-
-
 

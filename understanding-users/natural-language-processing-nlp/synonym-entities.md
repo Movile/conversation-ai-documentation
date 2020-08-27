@@ -12,5 +12,3 @@ To do this, go to the Entities tab, and edit the entity you want to add synonyms
 
 ![](../../.gitbook/assets/image%20%28201%29.png)
 
-
-

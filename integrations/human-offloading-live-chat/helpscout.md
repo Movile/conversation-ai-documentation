@@ -18,8 +18,6 @@ You'll be prompted to authorize Chatlayer in your Help Scout account
 
 ![](../../.gitbook/assets/image%20%28136%29.png)
 
-
-
 ## Sending a user to Help Scout
 
 To have your user transferred to a live agent in Help Scout, create an action at the point in the flow where you want your user to be handed over.
@@ -30,5 +28,5 @@ Add the action "Send to offload provider" to your bot dialog and configure it wi
 
 ![](../../.gitbook/assets/image%20%2882%29.png)
 
-Once a user reaches this part of the conversation, the offload towards Help Scout will be triggered. The bot will automatically be paused when a user reaches this action. When the agent closes the conversation, the bot will be resumed. 
+Once a user reaches this part of the conversation, the offload towards Help Scout will be triggered. The bot will automatically be paused when a user reaches this action. When the agent closes the conversation, the bot will be resumed.
 

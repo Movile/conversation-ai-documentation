@@ -122,7 +122,5 @@ Now that we have all these extra inputs, it's time to show all of the data we've
 
 Test your newly created rail bot!
 
-
-
 In the [next tutorial](tutorial-using-context-for-intent-reuse.md) we will learn how we can use context for reusing intents. A good example are **yes** and **no**, which can be used in association with more than one specific bot dialog.
 

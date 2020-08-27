@@ -6,19 +6,19 @@ description: Learn how to configure and use Zendesk Chat on Chatlayer
 
 Zendesk is a service-first CRM company that builds software designed to improve customer relationships.
 
-## Configure Zendesk 
+## Configure Zendesk
 
-In Zendesk, your Chatlayer.ai bot will be a separate agent that will handle incoming messages for its own  department. The Agent account should not be accessed by live agents, as this may disrupt the chatbot. We provide the necessary action dialogs to transfer the conversation to a department with live agents of your choosing.
+In Zendesk, your Chatlayer.ai bot will be a separate agent that will handle incoming messages for its own department. The Agent account should not be accessed by live agents, as this may disrupt the chatbot. We provide the necessary action dialogs to transfer the conversation to a department with live agents of your choosing.
 
 ### Create a new agent for the chatbot
 
-First off, create the chatbot agent in Zendesk Chat by going to Settings &gt; Agents &gt; Add Agent. 
+First off, create the chatbot agent in Zendesk Chat by going to Settings &gt; Agents &gt; Add Agent.
 
 ![](../../.gitbook/assets/image%20%28277%29.png)
 
 ### Create a department for the chatbot
 
-Create a new department for the chatbot by going to Settings &gt; Departments &gt; Add Department.  Pick a recognizable name and **add the chatbot agent as the Department Agent.**
+Create a new department for the chatbot by going to Settings &gt; Departments &gt; Add Department. Pick a recognizable name and **add the chatbot agent as the Department Agent.**
 
 ![](../../.gitbook/assets/image%20%28269%29.png)
 
@@ -58,7 +58,7 @@ In Chatlayer.ai, go to the Channels overview to start setting up your Zendesk Ch
 
 #### Finding your subdomain
 
-You will be prompted to enter your subdomain for **zendesk.com**. 
+You will be prompted to enter your subdomain for **zendesk.com**.
 
 ![](../../.gitbook/assets/image%20%28270%29.png)
 
@@ -72,7 +72,7 @@ When prompted to authorize Zendesk, log in to the Zendesk Agent account that sho
 
 ### Start using your bot
 
-You can now talk to your bot through the Zendesk Chat widget. Every incoming message from a visitor will be answered by the bot. 
+You can now talk to your bot through the Zendesk Chat widget. Every incoming message from a visitor will be answered by the bot.
 
 ### Synchronized session variables
 

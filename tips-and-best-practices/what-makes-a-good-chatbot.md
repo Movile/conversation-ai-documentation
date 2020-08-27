@@ -55,7 +55,7 @@ Chatbots are not the magical answer to every question. A link to a well designed
 
 ## UX Guidelines for Designing Chatbots
 
-The Nielsen Normal Group published a [great article](https://www.nngroup.com/articles/chatbots/) about a research they did to create UX Guidelines for chatbots. Make sure you follow these while designing your bot! 
+The Nielsen Normal Group published a [great article](https://www.nngroup.com/articles/chatbots/) about a research they did to create UX Guidelines for chatbots. Make sure you follow these while designing your bot!
 
 * Be upfront about using a bot and not a human.
 * Clearly tell people what tasks the bot can do. Make sure you don’t create false expectations.

@@ -6,8 +6,6 @@ Context is used to reuse intents across several bot dialogs. To learn more about
 
 When the intent 'who are you' is recognised our train traveling assistant introduces himself and asks if the user would like to order a ticket.
 
-
-
 ![](../.gitbook/assets/image%20%2859%29.png)
 
 In a totally different part of the conversation, at the end of the `Book train ticket` conversation flow the chatbot asks for a booking confirmation.

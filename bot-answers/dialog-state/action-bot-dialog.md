@@ -31,14 +31,14 @@ A basic example would be the following :
 ```markup
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		</head>
-		<body>
-			<button onClick="window.parent.postMessage(JSON.stringify({target:'CL_API',type:'SEND_MESSAGE', payload:{text: 'You clicked the button'} }),'*')">
-         SEND_MESSAGE
-        </button>
-		</body>
+    <head>
+        <meta charset="UTF-8">
+        </head>
+        <body>
+            <button onClick="window.parent.postMessage(JSON.stringify({target:'CL_API',type:'SEND_MESSAGE', payload:{text: 'You clicked the button'} }),'*')">
+         SEND_MESSAGE
+        </button>
+        </body>
 </html>
 ```
 
@@ -51,6 +51,4 @@ The postMessage API can also handle `UPDATE_SESSION` and `GO_TO_DIALOGSTATE` eve
 If your bot is published on the [Webhook API](../../channels/webhook-api.md) channel, you can use the JSON Builder action to send messages to the conversation that don't need to result in an actual message to the user. Typically, it's used to send information about the user or bot conversation to the website the bot is published at.
 
 ![](../../.gitbook/assets/image%20%28230%29.png)
-
-
 

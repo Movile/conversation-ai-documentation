@@ -33,9 +33,9 @@ On the Chat Widget page you can customize a number of key chat widget components
 
 ### White listing
 
-To make sure your bot can only be activated on your website, all Chatlayer.ai chat widgets must be whitelisted before use. To do this, go to the config tab of the Chat Widget builder and add your domains in regex format. 
+To make sure your bot can only be activated on your website, all Chatlayer.ai chat widgets must be whitelisted before use. To do this, go to the config tab of the Chat Widget builder and add your domains in regex format.
 
-An example of this regex format for https://www.chatlayer.ai: `^https:\/\/www\.chatlayer\.ai(\/|$)`
+An example of this regex format for [https://www.chatlayer.ai](https://www.chatlayer.ai): `^https:\/\/www\.chatlayer\.ai(\/|$)`
 
 ## Embedding the web widget on your website
 
@@ -66,7 +66,6 @@ You can load the Chatlayer.ai chat widget by using the script tag below. Calling
         onload='chatlayer()' async>
     // The token can be found in the Chat Widget configuration window
 </script>
-
 ```
 
 Remove `.staging` from the URL if you want to integrate a production bot. You can add parameters to the `chatlayer` function to include additional functionality.
@@ -191,7 +190,7 @@ The same goal can also be achieved by changing the iframe url:
 <iframe src="https://chatbox.staging.chatlayer.ai/TOKEN?senderId=12345TEST&session[data][first_name]=Charlie"/>
 ```
 
-The example above, would result in a session containing: 
+The example above, would result in a session containing:
 
 ```javascript
 {
@@ -224,7 +223,6 @@ There are two main options for securing the chat widget. You can either verify t
 
 ![](../.gitbook/assets/image%20%28310%29.png)
 
-  
 When you turn on the AES-256 data protection, you can only pass an encrypted token as the chat session. This token should be generated in your own back-end. The code to generate the token looks like this \(using node.js\):
 
 ```javascript

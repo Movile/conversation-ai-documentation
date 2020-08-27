@@ -39,7 +39,7 @@ The specific configuration will depend on the offloading provider you want to in
 
 {% page-ref page="sparkcentral-beta.md" %}
 
-If you want to connect to a platform that's not in this list, [get in touch](../../support/get-in-touch.md)!
+If you want to connect to a platform that's not in this list, [get in touch]()!
 
 ## Human handover bot dialogs
 

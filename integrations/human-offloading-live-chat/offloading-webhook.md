@@ -13,7 +13,7 @@ The offloading webhook allows you to integrate any human handover live chat plat
 * Act upon offloading requests from a user
 
 {% hint style="info" %}
-This feature is currently in beta. If you would like access, please [get in touch](../../support/get-in-touch.md).
+This feature is currently in beta. If you would like access, please [get in touch]().
 {% endhint %}
 
 ## Configuration
@@ -40,7 +40,7 @@ API Health Check
 {% endapi-method-summary %}
 
 {% api-method-description %}
-You must send the response as described in the Response tab. 
+You must send the response as described in the Response tab.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -58,7 +58,7 @@ The verifyToken allows you to validate the request is made by Chatlayer
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 { "status": "ok" }
 ```
 {% endapi-method-response-example %}
@@ -114,7 +114,7 @@ The bot ID
 We do not expect a response body.
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -214,7 +214,7 @@ The type of request, in this case **`offload`**
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "offloadSuccess": true,
     "pauseBot": true
@@ -235,7 +235,5 @@ Use a "Send to offload provider" bot action dialog to trigger an **offload** cal
 
 ### Sending messages as an agent
 
-Use the [asynchronous actions API ](https://docs.chatlayer.ai/channels/webhook-api#asynchronous-actions)to send messages as an agent. 
-
-
+Use the [asynchronous actions API ](https://docs.chatlayer.ai/channels/webhook-api#asynchronous-actions)to send messages as an agent.
 

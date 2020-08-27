@@ -12,7 +12,7 @@ The \#Interact environment used by customers can only be connected to the Chatla
 
 ## Configure \#Interact offloading
 
-Create an access token in \#Interact by going to Settings &gt; Tokens &gt; Add token.  The access token will automatically be copied to your clipboard.
+Create an access token in \#Interact by going to Settings &gt; Tokens &gt; Add token. The access token will automatically be copied to your clipboard.
 
 ![](../../.gitbook/assets/image%20%2875%29.png)
 
@@ -25,8 +25,6 @@ Now head over to your bot's offloading settings. In Chatlayer, go to Settings &g
 Create a new Chatlayer access token. \#Interact will use this token to safely communicate with your Chatlayer bot.
 
 ![](../../.gitbook/assets/image%20%28100%29.png)
-
-
 
 ![](../../.gitbook/assets/image%20%28114%29.png)
 
@@ -42,7 +40,7 @@ To have your user transferred to a live agent in \#Interact, create an action at
 
 Add the action "Send to offload provider" to your bot dialog and configure it with the correct settings for \#Interact.
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2882%29%20%281%29.png)
 
-Once a user reaches this part of the conversation, the offload towards \#Interact will be triggered. The bot will automatically be paused when a user reaches this action. When the agent closes the conversation, the bot will be resumed. 
+Once a user reaches this part of the conversation, the offload towards \#Interact will be triggered. The bot will automatically be paused when a user reaches this action. When the agent closes the conversation, the bot will be resumed.
 

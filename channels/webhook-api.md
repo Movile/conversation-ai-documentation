@@ -14,7 +14,7 @@ The Chatlayer.ai Webhook API is often used to integrate Chatlayer.ai into a mobi
 
 ### Scheme and hostname
 
-Request **must** be done with https scheme. Depending on the environment, the API hostname will be: 
+Request **must** be done with https scheme. Depending on the environment, the API hostname will be:
 
 {% hint style="info" %}
 **Endpoints:**
@@ -69,7 +69,7 @@ Get Messages by senderId
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This method gets the messages by senderId.   
+This method gets the messages by senderId.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -266,7 +266,6 @@ The namespace of the variables to get
     "aa": "bb"
   }
 }
-
 ```
 {% endapi-method-response-example %}
 
@@ -275,7 +274,7 @@ The namespace of the variables to get
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -298,7 +297,7 @@ Sending a user message to the bot
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This method sends a user message to the bot. The user message can be a simple text message or a button payload object which represents the state data when a user clicks the button or quick reply. The bot messages that come as a response will be sent to your webhook URL. The button payload is available in the messages received from the bot.  
+This method sends a user message to the bot. The user message can be a simple text message or a button payload object which represents the state data when a user clicks the button or quick reply. The bot messages that come as a response will be sent to your webhook URL. The button payload is available in the messages received from the bot.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -334,7 +333,7 @@ The user text message
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 EVENT_RECEIVED
 ```
 {% endapi-method-response-example %}
@@ -403,49 +402,15 @@ Configure both settings
 ![](../.gitbook/assets/1%20%281%29.png)
 
 {% api-method method="post" host="" path="customer webhook endpoint URL configured in Chatlayer.ai" %}
-{% api-method-summary %}
-Webhook messages
-{% endapi-method-summary %}
-
-{% api-method-description %}
-When a user message is sent to the webhook message API, the bot response\(s\) will be sent to the customer webhook endpoint URL. The bot response body payload object will include the bot message. This message can have a different object structure based on the message type.
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-  "recipient": {
-    "id": "default-b94215f0-0c7e-11ea-9c43-7174cba76asdfoijadsfoiadsiojadfiojasodijfb12"
-  },
-  "verifyToken": "eenheeluniekeverifytoken",
-  "message": {
-    "text": "test tekst message"
-  }
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 
 {% api-method method="post" host="" path="/api/webview" %}
 {% api-method-summary %}
-Asynchronous actions
+
 {% endapi-method-summary %}
 
 {% api-method-description %}
 This endpoint can be used to trigger a dialog state, send messages or save session data asynchronously.  
-A typical use case is an action based on the triggering of a custom component.  
-  
-Note that for the request to succeed you will have to include either:   
-- at least one message in the `messages` field  
-- `action.nextDialogstate` with the id of the dialogstate to trigger.  
+A typical use case is an action based on the triggering of a custom component.Note that for the request to succeed you will have to include either:
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -468,7 +433,7 @@ Use this parameter to include a nextDialogstate ID to define where the flow shou
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="messages" type="array" required=false %}
-The bot message object. The object structure depends on the message type.   
+The bot message object. The object structure depends on the message type.  
 See appendix for all message structures.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -480,9 +445,7 @@ See appendix for all message structures.
 
 {% endapi-method-response-example-description %}
 
-```
-
-
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -562,9 +525,7 @@ Extract NLP \(beta\)
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint may be used to fetch an NLP result for a single expression. This NLP extract contains your matched intents, entities and their performance scores.   
-  
-**Expect the in- and output of this endpoint to change in the future. Existing fields will remain the same but we reserve the right to add new fields at our discretion.**  
+This endpoint may be used to fetch an NLP result for a single expression. This NLP extract contains your matched intents, entities and their performance scores.**Expect the in- and output of this endpoint to change in the future. Existing fields will remain the same but we reserve the right to add new fields at our discretion.**
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1070,6 +1031,4 @@ An attachment represents a file such as images and video.
 #### Custom components
 
 Chatlayer.ai provides custom component development for your channels. Please contact your project manager to discuss further integration.
-
-### 
 

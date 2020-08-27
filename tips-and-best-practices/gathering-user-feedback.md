@@ -64,5 +64,3 @@ Remember to get the right app id, table name and bearer token for your Airtable.
 
 ![](../.gitbook/assets/image%20%28293%29.png)
 
-
-

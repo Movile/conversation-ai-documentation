@@ -1,6 +1,6 @@
 # Input Validation
 
-An input validation dialog state can be used to get information from the bot users. 
+An input validation dialog state can be used to get information from the bot users.
 
 The input validation dialog state first checks if the variable specified under the 'variable' field exists.
 

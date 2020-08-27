@@ -5,7 +5,7 @@ description: The list of languages the Chatlayer NLP supports.
 # Supported languages
 
 {% hint style="info" %}
-If you can't find your preferred language in this list or one of these languages is missing in the platform, just [get in touch](../../support/get-in-touch.md) and we'll take care of it!
+If you can't find your preferred language in this list or one of these languages is missing in the platform, just [get in touch]() and we'll take care of it!
 {% endhint %}
 
 * Afrikaans

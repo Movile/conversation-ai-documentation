@@ -5,7 +5,7 @@ A good bot can make users feel they're talking to a real 'artificial intelligenc
 Chatlayer.ai enables you to treat returning users differently, using saved variables from previous sessions.
 
 {% hint style="info" %}
-Note that not all channels save variables the same way! 
+Note that not all channels save variables the same way!
 
 Facebook Messenger saves them indefinitely, but by default, the Webwidget only keeps variables for the duration of the session - unless authentication of unique users is built in.
 {% endhint %}
@@ -26,7 +26,7 @@ However, instead of greeting the user right away, we can first check whether the
 
 ## Identify returning users with a 'known\_user\_flag' variable
 
-Using a variable 'known\_user\_flag' \(feel free to rename in line with your naming conventions\), the bot can check whether it has talked to the user before, and redirect to the right dialogs accordingly. 
+Using a variable 'known\_user\_flag' \(feel free to rename in line with your naming conventions\), the bot can check whether it has talked to the user before, and redirect to the right dialogs accordingly.
 
 Build an If-statement as follows:
 

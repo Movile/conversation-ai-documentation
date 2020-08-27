@@ -18,7 +18,7 @@ Click the Create Configuration button to set this up. The Chatlayer.ai test numb
 
 ### Production
 
-When you're ready to move your bot to production, [get in touch](../support/get-in-touch.md) with us. We will set up a phone number for your bot specifically which can be used to forward calls to or be called directly. A typical phone architecture looks like this:
+When you're ready to move your bot to production, [get in touch]() with us. We will set up a phone number for your bot specifically which can be used to forward calls to or be called directly. A typical phone architecture looks like this:
 
 ![](../.gitbook/assets/nlp-high-level-architecture-2x-1.png)
 

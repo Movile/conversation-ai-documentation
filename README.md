@@ -1,6 +1,6 @@
 # Introduction
 
-Chatlayer.ai is a platform that provides the tools to build robust chat- and voice bots that support mission critical processes and serious business cases.
+Conversational AI is a platform that provides the tools to build robust chat- and voice bots that support mission critical processes and serious business cases.
 
 On this website, you can find documentation regarding the most important aspects of Chatlayer.ai, and we help you get to know our platform with easy to follow tutorials.
 
@@ -17,3 +17,4 @@ Direct links to the most popular pages:
 {% page-ref page="channels/webwidget.md" %}
 
 {% page-ref page="tips-and-best-practices/how-to-nlp.md" %}
+

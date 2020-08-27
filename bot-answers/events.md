@@ -38,7 +38,7 @@ Chatlayer.ai customers often use the variables changed event to perform an API r
 ## Silence detected event
 
 {% hint style="warning" %}
-The silence detected event is only visible when you have the voice channel enabled for your account. 
+The silence detected event is only visible when you have the voice channel enabled for your account.
 {% endhint %}
 
 This event allows you to configure where the user should be routed if the bot detects a silence longer than a value that you can choose.

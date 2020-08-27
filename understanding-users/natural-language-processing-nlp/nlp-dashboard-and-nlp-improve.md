@@ -16,7 +16,7 @@ A first metric we measure is the amount of expressions. To optimally train your 
 
 Just like humans no AI/NLP system is perfect. And because our minds work differently than the Chatlayer.ai NLP it is hard to predict where mistakes might happen.
 
-To guarantee the best possible outcome we do an advanced analysis on all the expressions. This determines the expressions for which the NLP might have a hard time. For example it might have difficulties differentiating between a sentences like: “I see on my bill that I have the wrong subscription” and “My bill seems wrong if I look at my subscription”.  So the second metric we take into account is the number of intents that have a risk for these misclassified expressions.
+To guarantee the best possible outcome we do an advanced analysis on all the expressions. This determines the expressions for which the NLP might have a hard time. For example it might have difficulties differentiating between a sentences like: “I see on my bill that I have the wrong subscription” and “My bill seems wrong if I look at my subscription”. So the second metric we take into account is the number of intents that have a risk for these misclassified expressions.
 
 In the intent list on the right of the NLP Dashboard you can click on the wrench icon to improve your set of expressions, and thus to better discriminate between intents.
 
@@ -29,6 +29,4 @@ The NLP Improve module helps you out with creating better expressions where the 
 Next you can select the expression you want to improve. Once you have selected this expression you will see the confidence on the right for the top 2 or 3 intents. As you will notice the NLP model is more confident that your expression belongs to another intent than to the correct intent.
 
 ![](../../.gitbook/assets/image%20%283%29.png)
-
-
 

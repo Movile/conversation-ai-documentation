@@ -21,7 +21,7 @@ It's only possible to install the Chatlayer.ai Workplace integration as a Workpl
 
 * After a couple of seconds, Facebook Workplace will be successfully set up for your bot.
 
-### Talking to your Workplace bot
+## Talking to your Workplace bot
 
 For your users, the bot can be found under "Home -&gt; See more -&gt; Integrations -&gt; {bot name}"
 
@@ -29,11 +29,11 @@ For your users, the bot can be found under "Home -&gt; See more -&gt; Integratio
 
 Clicking the "Message" button will let the user start the conversation.
 
-### Using e-mail addresses
+## Using e-mail addresses
 
 The Chatlayer.ai Workplace app has access to a Workplace user's e-mail address. When you've connected your bot to the Workplace channel, you can use the variable {email} in your flows, which will be filled with the user's e-mail address. Read more about using variables in Chatlayer.ai [here](../tutorials/tutorial-conditional-flow-navigation.md).
 
-### Uninstalling
+## Uninstalling
 
 If you want to disconnect your bot from Workplace, go to the Admin Panel, click on your bot integration, and click on Uninstall
 

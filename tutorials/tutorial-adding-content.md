@@ -45,7 +45,7 @@ For our example, we want to give Choo Choo the ability to answer basic questions
 
 ### Add expression
 
-Now, we have to train the NLP to recognise this Intent. We do this by adding Expressions. Expressions are different ways your users will express an Intent. 
+Now, we have to train the NLP to recognise this Intent. We do this by adding Expressions. Expressions are different ways your users will express an Intent.
 
 {% hint style="info" %}
 Expressions are another word for what is sometimes called Utterances
@@ -98,7 +98,7 @@ If two of your intents are very close in terms of expressions’ syntax or conte
 * Hi there
 * Good morning
 
-We have defined two intents now. 
+We have defined two intents now.
 
 ![](../.gitbook/assets/intents%20%281%29.png)
 
@@ -112,12 +112,12 @@ To successfully train the NLP model, you need to have at least two intents with 
 
 ![](../.gitbook/assets/image%20%2884%29.png)
 
-Select the language you used to add the expressions.  __You can view the status of the NLP update for each language by clicking on the Update NLP icon.
+Select the language you used to add the expressions. \_\_You can view the status of the NLP update for each language by clicking on the Update NLP icon.
 
 ![](../.gitbook/assets/update-nlp.png)
 
-Click on `Update` to start training.   
-Training can take a couple of minutes up to an hour depending on the size of your chatbot. 
+Click on `Update` to start training.  
+Training can take a couple of minutes up to an hour depending on the size of your chatbot.
 
 ![](../.gitbook/assets/updatenlp.png)
 
@@ -164,7 +164,7 @@ Click on `Test your bot` at the bottom right to test your flow. To get a feel of
 This 'Test your bot' is also referred to as the emulator.
 {% endhint %}
 
-Open de Debugger and select a user message in the `Messages` list to retrieve detailed information about the bot response message, the user funnel and context, Natural Language Processing results and user session data. 
+Open de Debugger and select a user message in the `Messages` list to retrieve detailed information about the bot response message, the user funnel and context, Natural Language Processing results and user session data.
 
 ### Multiple messages
 

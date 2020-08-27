@@ -15,14 +15,14 @@ Once your bot is ready and has been tested in the staging environment, it's time
 If you have a bot that you want to run on Facebook Messenger, we advise to set-up a separate staging Facebook page and app for your staging version of the bot.
 
 {% hint style="info" %}
-Each day your production user messages are added in the staging environment so that you can  train your NLP models every day based on actual user data.
+Each day your production user messages are added in the staging environment so that you can train your NLP models every day based on actual user data.
 {% endhint %}
 
 To publish your bot, go to the "Versioning" module in the Chatlayer.ai staging environment.
 
 ![](../.gitbook/assets/image%20%2894%29.png)
 
-Enter a description for the new version of your bot, and publish it by clicking the button. 
+Enter a description for the new version of your bot, and publish it by clicking the button.
 
 You will then be prompted to choose between 'Publish Full Bot' and 'Publish NLP Only':
 

@@ -21,7 +21,7 @@ When in the `ask confirmation of pizza order` bot dialog, you want the user to b
 
 To achieve that behaviour, we need to reuse the _Yes_ intent for both bot dialogs. However, we need to give the bot a hand in determining where the user wants to go by saying that intent at that point in the flow. In Chatlayer.ai, you can guide the bot using **context**.
 
-* Set the output context of the `ask confirmation of pizza order` bot dialog to **confirmingpizza.** The default value of the lifespan will be 1, you can leave that for now. ****
+* Set the output context of the `ask confirmation of pizza order` bot dialog to **confirmingpizza.** The default value of the lifespan will be 1, you can leave that for now. _\*\*_
 * Next, in the bot dialog `confirm order`, specify that **confirmingpizza** needs to be the input context.
 
 ![](../.gitbook/assets/image%20%2857%29.png)

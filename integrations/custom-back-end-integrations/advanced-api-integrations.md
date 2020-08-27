@@ -22,7 +22,7 @@ If you click on an error you can see additional request and response information
 
 ## API SSL settings
 
-In the `Settings` menu under the `API` tab you can add encryption to the requests sent by Chatlayer.ai through the API plugin. 
+In the `Settings` menu under the `API` tab you can add encryption to the requests sent by Chatlayer.ai through the API plugin.
 
 Click on `+ Setting` to add a new encryption setting. Fill in the required fields. You can choose between the SSL and HMAC encryption types.
 

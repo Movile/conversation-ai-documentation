@@ -23,7 +23,7 @@ The more expressions you add for an intent, and the more varied they are, the mo
 
 ## Intent structure <a id="Trainingdatagenerationforchatbots:bestpractices-Intentstructure"></a>
 
-Coming up with a taxonomy of the intents that you need for your bot is no easy feat. Additionally, there is no correct way of doing it. Which intents you need depends largely on what you want your bot to do, on how you define the bot flow, and on how the users actually interact with the bot. 
+Coming up with a taxonomy of the intents that you need for your bot is no easy feat. Additionally, there is no correct way of doing it. Which intents you need depends largely on what you want your bot to do, on how you define the bot flow, and on how the users actually interact with the bot.
 
 There are some best practices:
 
@@ -55,9 +55,9 @@ Make sure to take into account the following guidelines:
 
 ## Entities <a id="Trainingdatagenerationforchatbots:bestpractices-Entities"></a>
 
-Entities are words or small word groups that are particularly relevant for the bot flow. They can be names of people or organisations, cities, products, brands, companies, street names etc. 
+Entities are words or small word groups that are particularly relevant for the bot flow. They can be names of people or organisations, cities, products, brands, companies, street names etc.
 
-Entities should only be used if their value is needed in the bot flow. For instance, if your bot allows for asking information about a certain product and you need to recover the name of the product to look up the necessary information in a database, you have to use entities. If your bot simply redirects to a webpage with an overview of all products, you do not need entities. 
+Entities should only be used if their value is needed in the bot flow. For instance, if your bot allows for asking information about a certain product and you need to recover the name of the product to look up the necessary information in a database, you have to use entities. If your bot simply redirects to a webpage with an overview of all products, you do not need entities.
 
 When adding entities to your training data, take the following points into accounts:
 

@@ -12,7 +12,7 @@ Select a user row to see the conversation that took place between the user and t
 
 ![](../.gitbook/assets/image%20%28117%29.png)
 
-#### Voice and phone conversations
+## Voice and phone conversations
 
 Conversations through the voice channel will include both an audio file and transcripts of what was spoken by the user and the bot.
 

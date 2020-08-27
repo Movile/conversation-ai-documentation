@@ -1,6 +1,6 @@
 # API integration
 
-This document describes how to integrate Chatlayer.ai with your back end or third party services in order to share data gathered in the conversation with the bot, or enrich the bot with data captured earlier. 
+This document describes how to integrate Chatlayer.ai with your back end or third party services in order to share data gathered in the conversation with the bot, or enrich the bot with data captured earlier.
 
 ## How custom integrations work
 
@@ -128,7 +128,7 @@ app.post('/transaction', function (req, res) {
 
   // get account type (regular - savings account) 
   const account = account_synonyms[accountType];
- 
+
   if( accounts[account].amount + accounts[accounthlimit — amount < ) {
     nextDialogstate = transactionNoMoney 
   } else { 

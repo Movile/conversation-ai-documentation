@@ -11,32 +11,32 @@ The [Sinch Conversation API](https://www.sinch.com/products/apis/messaging/conve
 You don't have to think about which type of message works with which channel - the Conversation API transcodes the messages automatically to match the target channel.
 
 {% hint style="warning" %}
-The Sinch Conversation API integration is currently in beta, if you would like to try it out, [get in touch](../support/get-in-touch.md) with us.
+The Sinch Conversation API integration is currently in beta, if you would like to try it out, [get in touch]() with us.
 {% endhint %}
 
 ## Setting up the Conversation API integration
 
 ![](../.gitbook/assets/image%20%28309%29.png)
 
-In the Channels page of Chatlayer.ai, add a new channel that is activated through the Sinch Conversation API. 
+In the Channels page of Chatlayer.ai, add a new channel that is activated through the Sinch Conversation API.
 
 ![](../.gitbook/assets/image%20%28306%29.png)
 
 Chatlayer.ai will ask for a number of fields that are required to set up the connection. Let's go through them one by one.
 
-#### Project ID
+### Project ID
 
 You can find the project id in the [conversation API overview](https://dashboard.sinch.com/convapi/overview).
 
 ![](../.gitbook/assets/image%20%28303%29.png)
 
-#### App id
+### App id
 
 After creating an App, you can view the App id in the App table.
 
 ![](../.gitbook/assets/image%20%28304%29.png)
 
-#### Client id & client secret
+### Client id & client secret
 
 To get a client id and client secret, you need to create an access token. Navigate to [this page](https://dashboard.sinch.com/convapi/access-keys) to start the process.
 

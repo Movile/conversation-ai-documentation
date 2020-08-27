@@ -95,8 +95,8 @@ To learn more about using context, see the [Context concepts documentation](../.
 
 ### Output contexts
 
-To set an output context for a certain bot dialog, type the name of your context in the `Search or create output context` field. If it doesn't exist a new context is created. An existing context is re-used. You can also click on the available contexts to select one.  
-  
+To set an output context for a certain bot dialog, type the name of your context in the `Search or create output context` field. If it doesn't exist a new context is created. An existing context is re-used. You can also click on the available contexts to select one.
+
 The number on the left of the context name is the **lifetime** of the context. For example if you specify a lifetime of 3, this context will remain active for 3 user messages. After the user has entered three messages, this context will not be active anymore. Combine multiple input contexts for sub flows in flows.
 
 ![](../../.gitbook/assets/image%20%2829%29.png)

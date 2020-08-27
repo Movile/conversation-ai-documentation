@@ -6,7 +6,7 @@ Variables are used in Chatlayer.ai to store any information the bot knows about 
 
 In Chatlayer.ai you can make sure that variables are not stored. This is typically useful when the conversation between a bot and user contains sensitive information, such as a bank account number. Sensitive data often should not or can not be stored with an external provider like Chatlayer.ai, in order to comply with GDPR or other data & security policies.
 
-To make sure variables are not stored in the database you can click on Variables in the Settings tab. Here you can add a variable to the list of variables by clicking on + Variable. 
+To make sure variables are not stored in the database you can click on Variables in the Settings tab. Here you can add a variable to the list of variables by clicking on + Variable.
 
 ![](../../.gitbook/assets/screenshot-2019-05-13-at-14.48.10.png)
 
@@ -20,6 +20,4 @@ If you want to incrementally increase the value of a variable, you can use the f
 * At the point in the flow where you want to increment the value of `variableName`, enter variableName as the variable and `{variableName|increment}` as the value.
 
 This method will increase the value of counter by 1 each time for example a specific bot dialog is passed or button is clicked.
-
-
 

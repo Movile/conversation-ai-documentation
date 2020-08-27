@@ -6,7 +6,7 @@ Setting a threshold too high will result in very few user messages getting assig
 
 Setting a threshold too low will make the bot act more confident. This increases the chances of a wrong link between an expression and an intent.
 
-### Example
+## Example
 
 Consider for example the following three expressions and scores
 

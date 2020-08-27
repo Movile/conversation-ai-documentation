@@ -13,5 +13,5 @@ If you are currently experiencing this issue, follow the steps below.
 3. Within the Chatlayer platform, go to Settings
 4. Change the Page Access Token by the one you copied from Facebook and click on the "Push to bot" button.
 
-If these steps do not resolve the problem, please contact us through our [support channels](../../support/get-in-touch.md).
+If these steps do not resolve the problem, please contact us through our [support channels]().
 

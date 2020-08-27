@@ -1,6 +1,6 @@
 # Getting started
 
-In this tutorial, we will introduce you to the steps needed to create a chatbot from scratch and setting up a new project. 
+In this tutorial, we will introduce you to the steps needed to create a chatbot from scratch and setting up a new project.
 
 If you are working on an existing project, you don't need to set up a new project so feel free to skip ahead to the next tutorial.
 
@@ -32,7 +32,7 @@ Once you have created the bot, click on the pencil icon to start creating your b
 
 ![](../.gitbook/assets/image%20%28137%29.png)
 
-In the menu on the left, click on `Bot dialogs`. Enter the `General` flow by clicking the flow icon 
+In the menu on the left, click on `Bot dialogs`. Enter the `General` flow by clicking the flow icon
 
 {% hint style="info" %}
 Flows are a way to group your bot dialogs. You will learn more about this in a later tutorial.
@@ -83,7 +83,7 @@ Users typically don't like it when a bot always replies with the exact same mess
 
 > What can I do for you?
 
-You can add as much random messages as you want. 
+You can add as much random messages as you want.
 
 ![](../.gitbook/assets/image%20%2891%29.png)
 

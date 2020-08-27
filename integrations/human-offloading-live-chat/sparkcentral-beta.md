@@ -8,7 +8,7 @@ The Sparkcentral integration doesn't support the use of buttons yet.
 
 ## Retrieving Sparkcentral API credentials
 
-The first step to integrate Sparkcentral with Chatlayer.ai is to retrieve API Credentials from Sparkcentral. 
+The first step to integrate Sparkcentral with Chatlayer.ai is to retrieve API Credentials from Sparkcentral.
 
 * Go to your Sparkcentral dashboard and open the Settings page. 
 * Once you’re on the settings page, select the Integrations tab in the sidebar. 

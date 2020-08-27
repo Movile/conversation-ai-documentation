@@ -6,7 +6,7 @@ Throughout our analytics we use several key concepts. In order to fully understa
 
 ### User
 
-A user is anybody who sends at least one message to the bot. 
+A user is anybody who sends at least one message to the bot.
 
 If you're on an asynchronous channel like Facebook or WhatsApp, the user will be persisted throughout their entire lifecycle with the bot. This means that every Facebook user talking to the bot only counts as one user in the analytics.
 
@@ -27,6 +27,4 @@ Every time a user says something for the first time or after an interval of at l
 #### Session duration
 
 The duration between the first message of a session and the last message before a period of at least 15 minutes of inactivity.
-
-
 

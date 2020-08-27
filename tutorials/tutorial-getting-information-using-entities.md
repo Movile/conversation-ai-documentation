@@ -76,7 +76,7 @@ After we have retrained the model, let's see if the model is good enough to reco
 * Write 'I would like to go to Brussels from Amsterdam' as the expression to be tested
 * Click on `Test`.
 
-You see that the entity gets recognized with a 89.72% confidence. Your results will be different based on your training set. If the entity is not recognized correctly, you can add it here as a training expression immediately. 
+You see that the entity gets recognized with a 89.72% confidence. Your results will be different based on your training set. If the entity is not recognized correctly, you can add it here as a training expression immediately.
 
 {% hint style="warning" %}
 Make sure you retrain the model before testing newly added expressions.
@@ -88,7 +88,7 @@ Make sure you retrain the model before testing newly added expressions.
 
 When a user says something with an entity, and the entity is successfully detected, Chatlayer will automatically store it as a **variable** for that specific user.
 
-To reuse the variable later in the conversation, you can put it in between curly brackets like this: `{variable_name}`. When writing this message to the users, Chatlayer.ai will automatically substitute `{variable_name}` ****with the value of the variable. If the variable is empty, an empty string will be printed.
+To reuse the variable later in the conversation, you can put it in between curly brackets like this: `{variable_name}`. When writing this message to the users, Chatlayer.ai will automatically substitute `{variable_name}` _\*\*_with the value of the variable. If the variable is empty, an empty string will be printed.
 
 * In Bot dialogs, create a bot dialog of type Bot message `book train ticket` and link the `book train ticket` intent to it in the NLP tab.
 * Add a new text message with the text 'So you want to go to `{destination}`, I can help you with that!'
@@ -135,7 +135,7 @@ with entities
 * departure-time: 9am
 * class: first
 
-Keep in mind that NLP techniques are probabilistic in nature. When you try to capture 5 expressions in one sentence, it might not recognise all of them correctly. As a general rule of thumb, you can start to expect reasonable results for one entity when the NLP was given 30 expression to learn from. 
+Keep in mind that NLP techniques are probabilistic in nature. When you try to capture 5 expressions in one sentence, it might not recognise all of them correctly. As a general rule of thumb, you can start to expect reasonable results for one entity when the NLP was given 30 expression to learn from.
 
 ![](../.gitbook/assets/expression-withentities.png)
 
@@ -162,14 +162,14 @@ Re-train your NLP model and test your bot.
 
 ![](../.gitbook/assets/incomplete-conversation%20%281%29.png)
 
-Oops, not completely what we want. The departure date and time is not set \(your result can be different depending on your expressions\).  
-  
+Oops, not completely what we want. The departure date and time is not set \(your result can be different depending on your expressions\).
+
 What is the problem? Let's look at the NLP Results:
 
 ![](../.gitbook/assets/nlp-result%20%281%29.png)
 
-`origin`, `destination` and `departure-date` is found but only `origin` and `destination` have a confidence score above 80%. So `departure-date` is not processed and put into a variable.  
-  
+`origin`, `destination` and `departure-date` is found but only `origin` and `destination` have a confidence score above 80%. So `departure-date` is not processed and put into a variable.
+
 More expressions can help you fix this problem.
 
 Not every user will input all the entities you might need. In the [next tutorial](tutorial-request-and-use-information-using-input-plugins.md), we will see how we can check if a user has already provided information, and ask for everything that is missing.

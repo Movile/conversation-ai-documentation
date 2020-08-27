@@ -1,8 +1,6 @@
 # Adding new users to your account
 
-Using the platform users module you can add or remove users from your Chatlayer.ai account. 
-
-
+Using the platform users module you can add or remove users from your Chatlayer.ai account.
 
 ![](../.gitbook/assets/image%20%28259%29.png)
 

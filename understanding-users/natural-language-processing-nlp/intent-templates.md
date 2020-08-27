@@ -6,7 +6,7 @@ description: >-
 
 # Intent templates
 
-In the list below you can see the type of intents that can be generated. Just replace {subjectX} and {verbX} with the subject and verb you want. 
+In the list below you can see the type of intents that can be generated. Just replace {subjectX} and {verbX} with the subject and verb you want.
 
 ```text
 am_i_entitled_to_{subject1}

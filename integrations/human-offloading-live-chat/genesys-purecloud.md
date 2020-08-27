@@ -52,7 +52,7 @@ Select the queue for your chatbot conversations to be offloaded into.
 
 ![](../../.gitbook/assets/image%20%2870%29.png)
 
-Once a user reaches this part of the conversation, the offload towards Genesys Cloud will be triggered. The bot will automatically be paused when a user reaches this action. When the agent closes the conversation, the bot will be resumed. 
+Once a user reaches this part of the conversation, the offload towards Genesys Cloud will be triggered. The bot will automatically be paused when a user reaches this action. When the agent closes the conversation, the bot will be resumed.
 
 ### User Information and Custom Fields
 
@@ -63,7 +63,7 @@ When the conversations reaches a human handover dialog for Genesys Cloud, Chatla
 **Phone** **Number**: `genesysCloud.phoneNumber`  
 **Email**: `genesysCloud.email`
 
-You may want to pass additional information about the user to Genesys, not covered in the above fields. To handle this, you can declare additional session variables under the `genesysCloud.customFields` namespace. These will be added as custom fields in Genesys Cloud. 
+You may want to pass additional information about the user to Genesys, not covered in the above fields. To handle this, you can declare additional session variables under the `genesysCloud.customFields` namespace. These will be added as custom fields in Genesys Cloud.
 
 For example, to add the user's location as a custom field, you would adjust your bot's flow to ask the user's location, and store the answer as a variable under `genesysCloud.customFields.location`
 
